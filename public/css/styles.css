@@ -1,0 +1,19 @@
+[v-cloak] { display:none; }
+@keyframes animation-up {
+    0%   {background-color: #28a745;color: #fff;}
+    99%  {background-color: #28a745;color: #fff;}
+    100% {background-color: transparent;color: #212529}
+}
+@keyframes animation-down {
+    0%   {background-color: #dc3545;color: #fff;}
+    99%  {background-color: #dc3545;color: #fff;}
+    100% {background-color: transparent;color: #212529}
+}
+.up{
+    animation-name: animation-up;
+    animation-duration: 2s;
+}
+.down{
+    animation-name: animation-down;
+    animation-duration: 2s;
+}
